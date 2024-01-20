@@ -12,12 +12,13 @@
         "client": "cd client && npm start"
     },
     "keywords": [],
-    "author": "",
+    "author": "Sarah Leder",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.4"
+        "nodemon": "^2.0.4",
+        "concurrently": "^5.2.0"
     }
 }
