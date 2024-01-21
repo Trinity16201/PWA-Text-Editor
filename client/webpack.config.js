@@ -16,7 +16,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: '.index.html',
+        template: './index.html',
         title: 'Jate'
       }),
 
@@ -33,8 +33,8 @@ module.exports = () => {
         description: 'Create notes in this text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
